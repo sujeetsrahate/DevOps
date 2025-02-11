@@ -38,10 +38,10 @@ jevlis ka'''
 match5 =re.split("\n",string1)
 # print(match5)
 
-pattern = r'[a].*' #starting from a and print upto last
+pattern = r'[a].*' #starting from a and print upto last(0 or many)
 match6 = re.findall(pattern,string)
 #print(match6)
 
-pattern = r'[a].?' #starting from a and print upto last
+pattern = r'[a].?' #starting from a and print upto last(at least 1 or many)
 match7 = re.findall(pattern,string)
 print(match7)
