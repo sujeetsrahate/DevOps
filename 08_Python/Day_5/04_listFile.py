@@ -1,4 +1,4 @@
-# import os
+# import os it  is use for to see the Name file in the folder.
 # def list_files(directory):
 #     if os.path.exists(directory):
 #         for file_name in os.listdir(directory):
